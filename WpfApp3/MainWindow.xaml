@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-129,-85">
+        <Button Name="button1" Content="1" Width="200" Height="100" Background="Green" Margin="21,34,708,385" FontSize="60" MouseDoubleClick="Button_Click" MouseRightButtonUp="Delete_button"/>
+        <Button Name="button2" Content="2" Width="200" Height="100" Background="Purple" Margin="293,34,436,385" FontSize="60" MouseDoubleClick="Button_Click" MouseRightButtonUp="Delete_button"/>
+        <Button Name="button3" Content="3" Width="200" Height="100" Background="Blue" Margin="564,34,165,385" FontSize="60" MouseDoubleClick="Button_Click" MouseRightButtonUp="Delete_button"/>
+        <Button Name="button4" Content="4" Width="200" Height="100" Background="Yellow" Margin="21,283,708,136" FontSize="60" MouseDoubleClick="Button_Click" MouseRightButtonUp="Delete_button"/>
+        <Button Name="button5" Content="5" Width="200" Height="100" Background="Red" Margin="293,283,436,136" FontSize="60" MouseDoubleClick="Button_Click" MouseRightButtonUp="Delete_button"/>
+        <Button Name="button6" Content="6" Width="200" Height="100" Background="Orange"  Margin="564,283,165,136" FontSize="60" MouseDoubleClick="Button_Click" MouseRightButtonUp="Delete_button" />
+
+
+    </Grid>
+</Window>
